@@ -162,9 +162,9 @@ def achatar_lista(lista_de_listas):
 # Função 16 - Inverte as chaves e valores de um dicionário
 def inverter_dicionario(dicionario):
     """Retorna um novo dicionário com chaves e valores trocados."""
-    novo = {}
+    novo [valor] = chave
     for chave, valor in dicionario.items():
-        novo[chave] = valor  # BUG: deveria ser novo[valor] = chave
+        novo[chave] = valor  
     return novo
 
 # Função 17 - Mescla dois dicionários (o segundo sobrescreve o primeiro)
