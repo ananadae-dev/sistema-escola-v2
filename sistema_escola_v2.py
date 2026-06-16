@@ -93,7 +93,6 @@ def censurar_palavra(texto, palavra_proibida):
     return texto.replace(asteriscos, palavra_proibida)  # BUG: argumentos invertidos
 
 # Função 10 - Verifica se dois textos são anagramas
-# 🐛 BUG: compara os textos diretamente em vez de comparar as letras ordenadas
 def sao_anagramas(texto1, texto2):
     """Retorna True se os dois textos forem anagramas um do outro."""
     t1 = texto1.lower().replace(" ", "")
