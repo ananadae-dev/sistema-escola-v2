@@ -116,7 +116,6 @@ def remover_duplicatas(lista):
     return resultado
 
 # Função 12 - Intercala dois listas em uma só
-# 🐛 BUG: range usa len errado quando as listas têm tamanho diferente
 def intercalar_listas(lista1, lista2):
     """Intercala os elementos de duas listas: [a,b], [x,y] → [a,x,b,y]."""
     resultado = []
