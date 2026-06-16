@@ -68,9 +68,9 @@ def fatorial(n-1):
 # Função 6 - Conta vogais em um texto
 def contar_vogais(texto):
     """Conta quantas vogais existem no texto."""
-    vogais = "aeiou"  # BUG: deveria incluir "AEIOU" ou usar .lower()
+    vogais = "aeiou"  
     contador = 0
-    for letra in texto:
+    for letra in texto: deveria incluir "AEIOU" ou usar .lower()
         if letra in vogais:
             contador += 1
     return contador
