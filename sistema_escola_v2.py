@@ -188,8 +188,8 @@ def contar_frequencia(lista):
 # Função 19 - Filtra dicionário mantendo apenas chaves de uma lista
 def filtrar_chaves(dicionario, chaves_permitidas):
     """Retorna um novo dicionário apenas com as chaves permitidas."""
-    return {k: v for k, v in dicionario.items() if k not in chaves_permitidas}
-    # BUG: deveria ser "if k in chaves_permitidas"
+    return {k: v for k, v in dicionario.items() "if k in chaves_permitidas"}
+    
 
 # Função 20 - Agrupa alunos por turma em um dicionário
 def agrupar_por_turma(alunos):
