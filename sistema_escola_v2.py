@@ -252,7 +252,6 @@ def calcular_desconto(preco, quantidade):
     return preco * (1 - desconto)
 
 # Função 24 - Fibonacci com recursão e memoização simples
-# 🐛 BUG: caso base retorna errado para n == 1
 def fibonacci(n, memo={}):
     """Retorna o n-ésimo número da sequência de Fibonacci."""
     if n in memo:
