@@ -326,7 +326,6 @@ def calcular_frequencia(aulas_dadas, faltas):
     return round(percentual, 2)
 
 # Função 28 - Retorna o ranking de alunos por nota (maior primeiro)
-# 🐛 BUG: ordena por nome em vez de por nota
 def ranking_turma(alunos):
     """
     Recebe lista de dicts com 'nome' e 'nota'.
