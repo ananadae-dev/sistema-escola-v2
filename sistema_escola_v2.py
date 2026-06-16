@@ -142,7 +142,6 @@ def busca_binaria(lista_ordenada, alvo):
     return -1
 
 # Função 14 - Retorna os N maiores elementos de uma lista
-# 🐛 BUG: slice errado, pega os menores em vez dos maiores
 def n_maiores(lista, n):
     """Retorna os N maiores elementos em ordem decrescente."""
     ordenada = sorted(lista)         # BUG: deveria ser sorted(lista, reverse=True)
