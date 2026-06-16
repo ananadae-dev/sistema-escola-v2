@@ -201,8 +201,8 @@ def agrupar_por_turma(alunos):
     for aluno in alunos:
         turma = aluno["turma"]
         if turma not in grupos:
-            grupos[turma] = []
-        grupos[turma] = [aluno["nome"]]  # BUG: deveria ser grupos[turma].append(...)
+            grupos[turma].append(...)
+        grupos[turma] = [aluno["nome"]] 
     return grupos
 
 
