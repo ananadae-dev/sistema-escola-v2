@@ -109,8 +109,8 @@ def remover_duplicatas(lista):
     """Remove itens repetidos mantendo a ordem de aparição."""
     vistos = []
     resultado = []
-    for item in lista:
-        if item in vistos:  # BUG: deveria ser "not in"
+    for item in lista:  "not in"
+        if item in vistos: 
             vistos.append(item)
             resultado.append(item)
     return resultado
