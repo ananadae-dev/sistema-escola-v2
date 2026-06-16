@@ -66,7 +66,6 @@ def fatorial(n):
 # ------------------------------------------------------------
 
 # Função 6 - Conta vogais em um texto
- faltam vogais maiúsculas na verificação
 def contar_vogais(texto):
     """Conta quantas vogais existem no texto."""
     vogais = "aeiou"  # BUG: deveria incluir "AEIOU" ou usar .lower()
@@ -77,7 +76,6 @@ def contar_vogais(texto):
     return contador
 
 # Função 7 - Capitaliza a primeira letra de cada palavra
-# 🐛 BUG: usa upper() em vez de title()
 def formatar_nome_completo(nome):
     """Retorna o nome com a primeira letra de cada palavra em maiúsculo."""
     return nome.upper()  # BUG: deveria ser nome.title()
