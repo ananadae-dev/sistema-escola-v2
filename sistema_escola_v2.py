@@ -44,7 +44,7 @@ def listar_divisores(n):
     return divisores
 
 # Função 4 - Verifica se um número é primo
-# 🐛 BUG: retornos invertidos
+retornos invertidos
 def eh_primo(n):
     """Retorna True se n for primo."""
     if n < 2:
