@@ -319,7 +319,6 @@ def gerar_boletim(nome, notas_bimestres):
     return boletim
 
 # Função 27 - Calcula frequência percentual do aluno
-# 🐛 BUG: fórmula multiplicada por 10 em vez de 100
 def calcular_frequencia(aulas_dadas, faltas):
     """Retorna o percentual de frequência do aluno."""
     presencas = aulas_dadas - faltas
