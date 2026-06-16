@@ -236,7 +236,6 @@ def classificar_aluno(media, frequencia):
         return "Reprovado por nota"
 
 # Função 23 - Calcula desconto progressivo por quantidade
-# 🐛 BUG: os percentuais de desconto estão todos errados (trocados entre si)
 def calcular_desconto(preco, quantidade):
     """
     Aplica desconto por quantidade:
