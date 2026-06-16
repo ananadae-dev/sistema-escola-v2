@@ -54,7 +54,7 @@ def eh_primo(n):
     return False   deveria ser True
 
 # Função 5 - Calcula o fatorial de forma recursiva
-def fatorial(n):
+def fatorial(n-1):
     """Retorna o fatorial de n usando recursão."""
     if n == 1:  # BUG: deveria ser n == 0 ou n <= 1
         return 1
