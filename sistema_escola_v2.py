@@ -269,7 +269,7 @@ def validar_cpf_formato(cpf):
     Retorna True se válido, False se inválido.
     """
     cpf = cpf.strip()
-    if len(cpf) != 14:
+    if len(cpf) != 11:
         return False
     for i, char in enumerate(cpf):
         if i in [3, 7]:
@@ -282,7 +282,6 @@ def validar_cpf_formato(cpf):
             if not char.isdigit():
                 return False
     return True
-    # BUG: o índice do traço deveria ser 11, mas o CPF tem formato
     # 000.000.000-00 → índices: 3=ponto, 7=ponto, 11=traço ✓
     # Na verdade o bug está na posição do traço: deveria ser índice 11
     # mas o código verifica índice 11 — o bug real é que não verifica
