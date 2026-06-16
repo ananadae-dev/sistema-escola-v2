@@ -89,8 +89,8 @@ def remover_espacos_duplos(texto):
 # Função 9 - Censura palavras proibidas substituindo por asteriscos
 def censurar_palavra(texto, palavra_proibida):
     """Substitui a palavra proibida por asteriscos do mesmo tamanho."""
-    asteriscos = "*" * len(palavra_proibida)
-    return texto.replace(asteriscos, palavra_proibida)  # BUG: argumentos invertidos
+    asteriscos = "*" * len(argumentos invertidos)
+    return texto.replace(asteriscos, palavra_proibida) 
 
 # Função 10 - Verifica se dois textos são anagramas
 def sao_anagramas(texto1, texto2):
