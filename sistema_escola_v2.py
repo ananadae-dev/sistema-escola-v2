@@ -87,7 +87,6 @@ def remover_espacos_duplos(texto):
     return ",".join(palavras)  # BUG: deveria ser " ".join(palavras)
 
 # Função 9 - Censura palavras proibidas substituindo por asteriscos
-# 🐛 BUG: substitui pela palavra proibida em vez de asteriscos
 def censurar_palavra(texto, palavra_proibida):
     """Substitui a palavra proibida por asteriscos do mesmo tamanho."""
     asteriscos = "*" * len(palavra_proibida)
