@@ -347,7 +347,6 @@ def media_ponderada(notas, pesos):
     return round(soma_ponderada / soma_pesos, 2)
 
 # Função 30 - Gera relatório final consolidado da turma
-# 🐛 BUG: percentual de aprovação usa total errado
 def relatorio_final(turma):
     """
     Recebe lista de dicts com 'nome' e 'nota'.
