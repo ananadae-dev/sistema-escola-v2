@@ -35,7 +35,6 @@ def potencia(base, expoente):
     return resultado
 
 # Função 3 - Retorna a lista de divisores de um número
-# 🐛 BUG: range não inclui o próprio número
 def listar_divisores(n):
     """Retorna uma lista com todos os divisores de n."""
     divisores = []
