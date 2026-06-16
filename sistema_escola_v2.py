@@ -81,7 +81,6 @@ def formatar_nome_completo(nome):
     return nome.upper()  # BUG: deveria ser nome.title()
 
 # Função 8 - Remove espaços duplicados de um texto
-# 🐛 BUG: split sem argumento e join estão corretos, mas o join usa vírgula
 def remover_espacos_duplos(texto):
     """Remove espaços extras, deixando apenas um espaço entre palavras."""
     palavras = texto.split()
