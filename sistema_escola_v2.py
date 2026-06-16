@@ -212,7 +212,6 @@ def agrupar_por_turma(alunos):
 # ------------------------------------------------------------
 
 # Função 21 - Retorna estatísticas de uma lista de notas
-# 🐛 BUG: o mínimo e máximo estão trocados
 def estatisticas_notas(notas):
     """Retorna um dicionário com média, maior e menor nota."""
     return {
