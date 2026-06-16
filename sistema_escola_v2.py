@@ -264,7 +264,6 @@ def fibonacci(n, memo={}):
     return memo[n]
 
 # Função 25 - Valida um CPF (formato básico: 000.000.000-00)
-# 🐛 BUG: a contagem de dígitos está errada
 def validar_cpf_formato(cpf):
     """
     Valida se o CPF está no formato correto: 000.000.000-00
